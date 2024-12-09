@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1d68fda857d3a6a99a9c9d4e0c1c4dd",
+    "content-hash": "fc9c652707868650c18b79cd68793f01",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -9542,16 +9542,16 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v7.0.6",
+            "version": "v7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "a014167aa1f66cb9990675840da65609d3e61612"
+                "reference": "2bbde92ab25a0e2c88160857af7be9db5da0d145"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/a014167aa1f66cb9990675840da65609d3e61612",
-                "reference": "a014167aa1f66cb9990675840da65609d3e61612",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/2bbde92ab25a0e2c88160857af7be9db5da0d145",
+                "reference": "2bbde92ab25a0e2c88160857af7be9db5da0d145",
                 "shasum": ""
             },
             "require": {
@@ -9571,8 +9571,8 @@
             "type": "symfony-bridge",
             "extra": {
                 "thanks": {
-                    "name": "phpunit/phpunit",
-                    "url": "https://github.com/sebastianbergmann/phpunit"
+                    "url": "https://github.com/sebastianbergmann/phpunit",
+                    "name": "phpunit/phpunit"
                 }
             },
             "autoload": {
@@ -9583,7 +9583,8 @@
                     "Symfony\\Bridge\\PhpUnit\\": ""
                 },
                 "exclude-from-classmap": [
-                    "/Tests/"
+                    "/Tests/",
+                    "/bin/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -9603,7 +9604,7 @@
             "description": "Provides utilities for PHPUnit, especially user deprecation notices management",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/phpunit-bridge/tree/v7.0.6"
+                "source": "https://github.com/symfony/phpunit-bridge/tree/v7.2.0"
             },
             "funding": [
                 {
@@ -9619,7 +9620,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-19T11:57:22+00:00"
+            "time": "2024-11-13T16:15:23+00:00"
         },
         {
             "name": "symfony/web-profiler-bundle",
@@ -9764,5 +9765,5 @@
         "ext-iconv": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
